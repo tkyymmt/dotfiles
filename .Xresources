@@ -1,0 +1,10 @@
+URxvt.foreground: white
+URxvt.background: black
+URxvt.cursorBlink: true
+URxvt.scrollBar: false
+URxvt.pointerBlank: true
+URxvt.fading: 40
+URxvt.font: xft:Dejavu Sans Mono:size=12
+URxvt.boldFont: xft:Dejavu Sans Mono:style=Bold:size=12
+URxvt.italicFont: xft:Dejavu Sans Mono:style=Oblique:size=12
+URxvt.boldItalicFont: xft:Dejavu Sans Mono:style=Bold Oblique:size=12
