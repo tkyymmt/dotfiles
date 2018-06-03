@@ -1,5 +1,4 @@
 *
-!.gitignore
 !.gitconfig
 !.bash_profile
 !.bashrc
@@ -8,4 +7,4 @@
 !.xinitrc
 !.Xresources
 !.Xmodmap
-!.config/i3/config
+!/.config/i3/config
