@@ -1,0 +1,10 @@
+/**/
+!.gitconfig
+!.bash_profile
+!.bashrc
+!.muttrc
+!.vimrc
+!.xinitrc
+!.Xresources
+!.Xmodmap
+!.config/i3/config
