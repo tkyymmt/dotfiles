@@ -1,5 +1,5 @@
-set imap_user = 'tkydevel@gmail.com'
-#set imap_pass = '74616b757961'
+set imap_user = 'tkyymmt01@gmail.com'
+#set imap_pass = ''
 
 set folder = imaps://imap.gmail.com:993/
 set spoolfile = +INBOX
@@ -8,7 +8,7 @@ set postponed = "+[Gmail]/Drafts"
 set mbox = "+[Gmail]/All Mail"
 set trash = "+[Gmail]/Trash"
 
-set smtp_url = "smtp://tkydevel@smtp.gmail.com:587/"
+set smtp_url = "smtp://tkyymmt01@smtp.gmail.com:587/"
 #set smtp_pass = $imap_pass
 set ssl_starttls = yes
 set ssl_force_tls = yes # Require encrypted connection

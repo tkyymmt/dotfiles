@@ -1,11 +1,11 @@
 [user]
-	email = tkyymmt0x0@gmail.com
+	email = tkyymmt01@gmail.com
 	name = Takuya Yamamoto
 [credential]
 	helper = cache --timeout=86400
 [sendemail]
 	smtpserver = smtp.gmail.com
-	smtpuser = tkyymmt0x0@gmail.com
+	smtpuser = tkyymmt01@gmail.com
 	smtpencryption = tls
 	smtpserverport = 587
 	suppresscc = self
