@@ -11,6 +11,7 @@
 
 set $mod Mod1
 
+#default_border pixel 1
 default_border pixel 1
 
 # start a terminal
