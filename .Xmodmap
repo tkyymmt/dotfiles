@@ -2,12 +2,7 @@ clear lock
 clear control
 clear mod4
 
-keycode 9 = grave asciitilde grave asciitilde
-keycode 22 = backslash bar backslash bar
 keycode 37 = Caps_Lock
-keycode 49 = BackSpace
-keycode 51 = BackSpace
-keycode 124 = Escape
 keycode 133 = Control_L
 keycode 134 = Control_R
 
