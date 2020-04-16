@@ -11,7 +11,7 @@
 
 set $mod Mod1
 
-default_border pixel 1
+default_border pixel 0
 
 # start a terminal
 bindsym $mod+Return exec --no-startup-id urxvt
@@ -38,7 +38,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-#bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -107,3 +107,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -q sset Master,0 5+ unmute"
+bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -q sset Master,0 5- unmute"
+bindsym XF86AudioMute exec --no-startup-id "amixer -q sset Master,0 toggle"
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
+bindsym XF86Sleep exec --no-startup-id systemctl suspend
